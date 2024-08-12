@@ -1,0 +1,59 @@
+Day 1
+===========
+1. HTML Basic Structure
+2. Common Tags
+3. Text Formatting
+4. Hyperlinks
+5. Lists
+
+Day 2
+===========
+1. HTML Basic Table
+2. Form Element
+3. Multimedia 
+4. Semantic HTML
+
+Day 3
+===========
+1. CSS Intro
+2. Selectors
+3. Colors
+4. Fonts, Texts
+5. Box Model
+
+Day 4
+===========
+1. CSS Display
+2. Flex
+3. Grid
+
+Day 5
+===========
+1. Introduction JavaScript
+2. Syntax
+3. Operators
+
+Day 6
+===========
+1. Control Structures
+2. Functions
+
+Day 7
+===========
+1. Array
+2. Objects
+
+Day 8
+===========
+1. DOM - Document Object Model
+
+Day 9
+===========
+1. Promise
+2. Async/Await
+
+Day 10
+===========
+1. Mini Project (Movie App)
+
+

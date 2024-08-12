@@ -1,0 +1,13 @@
+/* 
+font family
+font size
+font weight
+font style 
+*/
+
+p {
+  font-size: 20px;
+  font-weight: 200;
+  font-style: normal;
+  font-family: 'Times New Roman', Times, serif
+}

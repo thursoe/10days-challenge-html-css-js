@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.4rem;
+  background-color: #bf4740;
+}
+
+.list-menu {
+  list-style-type: none;
+}
+
+.list-item {
+  display: inline-block;
+  padding: 0.5rem;
+}
+
+.list-item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header {
+  margin-bottom: 0.5rem;
+  font-size: 38px;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-white {
+  color: white;
+}
+
+.hero {
+  padding: 2rem;
+}
+
+.hero p {
+  font-size: 20px;
+}
+
+.contents-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+  padding: 0 2rem 0 2rem;
+}
+
+.contents-section div {
+  width: 100%;
+  height: auto;
+}
+
+.contents-section img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card img {
+  border-radius: 8px;
+}
+
+.card p {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.card span {
+  font-size: 0.8rem;
+}
+
+.card div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0 5px 0;
+}
+
+.card span:first-child {
+  font-weight: 300;
+}
+
+.card span:nth-child(2) {
+  background-color: #40bf47;
+  color: #fff;
+  border-radius: 5px;
+  padding: 1px 5px 1px 5px;
+}
+
+.btn {
+  border: 1px solid #bf4740;
+  background-color: #bf4740;
+  border-radius: 5px;
+  padding: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#load-section {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  padding: 0 2rem 0 2rem;
+  margin: 1.5rem;
+}

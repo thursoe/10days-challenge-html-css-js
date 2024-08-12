@@ -1,0 +1,39 @@
+<!-- 
+    Image
+    Embedded Video (iframe)
+    Video
+    Audio
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My First HTML Page</title>
+  </head>
+  <body>
+    <img
+      src="media/cyber-kitty.jpg"
+      alt="Cyber Kitty"
+      width="400px"
+      height="400px"
+    />
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/HZ_U1H2QGfQ?si=9GQoh70nipXAk--e"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <video controls>
+      <source src="media/sample-video.mp4" type="video/mp4" />
+      This video format is not supported.
+    </video>
+    <audio width="200px" height="200px" controls>
+      <source src="media/lil-beat.mp3" type="audio/mpeg" />
+      This audio format is not supported.
+    </audio>
+  </body>
+</html>

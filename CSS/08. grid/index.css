@@ -1,0 +1,25 @@
+/* 
+CSS Grid Layout is a two-dimensional layout system - row, column
+
+template
+
+start,end
+
+gap
+*/
+
+.grid-item {
+  background-color: lightgreen;
+  padding: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}

@@ -1,0 +1,14 @@
+/* background color, text color 
+
+1. Hex eg: #ff6347
+2. RGB eg: rgb(0, 0, 255) Red, Green, Blue
+3. HSL eg: hsl(39, 100%, 50%) Hue Saturation Lightness
+*/
+
+p {
+  color: hsl(39, 100%, 50%);
+}
+
+h1 {
+  color: rgb(23, 36, 188);
+}

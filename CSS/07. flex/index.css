@@ -1,0 +1,27 @@
+/* 
+Flexbox is a layout model that allows you to design complex layouts with ease.
+
+flex direction
+justify content - main axis
+align items - cross axis
+*/
+
+.container {
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  background-color: brown;
+}
+
+.item {
+  padding: 10px;
+  background-color: lightblue;
+  margin: 5px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

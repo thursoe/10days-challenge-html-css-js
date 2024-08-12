@@ -1,0 +1,11 @@
+/* 
+display behaviors of an element - inline, block
+*/
+
+.block {
+  display: block;
+}
+
+.inline {
+  display: inline;
+}

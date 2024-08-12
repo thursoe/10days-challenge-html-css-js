@@ -1,0 +1,19 @@
+/* The selector points to the HTML element you want to style.
+
+rule -> p { color: blue; }
+
+1. Element Selector
+2. Class Selector
+3. ID Selector */
+
+h1 {
+  color: brown;
+}
+
+.paragraph {
+  color: blue;
+}
+
+#paragraph1 {
+    color: red
+}

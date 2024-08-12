@@ -1,0 +1,28 @@
+/* 
+rectangular boxes generated for elements
+contents, margins, borders, padding
+
+
++-----------------------------+
+|          margin             |
+|  +-----------------------+  |
+|  |        border         |  |
+|  |  +-----------------+  |  |
+|  |  |     padding     |  |  |
+|  |  |  +-----------+  |  |  |
+|  |  |  |  content  |  |  |  |
+|  |  |  +-----------+  |  |  |
+|  |  +-----------------+  |  |
+|  +-----------------------+  |
++-----------------------------+
+
+*/
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  padding: 20px;
+  border: 4px solid black;
+  margin: 60px;
+}
